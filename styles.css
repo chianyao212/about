@@ -1,0 +1,78 @@
+.intro-block {
+    width: 100%;
+    padding: 0 20px; /* Add some padding to the left and right */
+    background-image: url('file:///Users/ul4cc/Desktop/20240530_7407195_Fattie_CC.jpg'); /* Use full path for local testing */
+    background-size: cover; /* Makes the image cover the entire section */
+    background-position: center center; /* Centers the image */
+    height: 50vh; /* Makes the header fill the full height of the viewport */
+    color: #ffffff; /* Changes text color to white */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-end; /* Vertically centers the text */
+    text-align: left; /* Aligns text to the left */
+}
+
+.intro-block {
+    padding: 80px 20px;
+    background-color: #F8B62D;
+    color: #ffffff;
+    text-align: center;
+}
+
+.intro-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    line-height: 0.3; 
+}
+
+.intro-conten   t hr {
+    border: none;
+    border-top: 2px solid #ffffff;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.intro-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px 0;
+    color: #ffffff;
+    line-height: 0.5; 
+}
+
+/* Styling for the project year container */
+.project-year-yellow {
+    font-size: 1em;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Styling for the project year badge */
+.project-year-yellow {
+    background-color: #F8B62D;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: medium;
+    margin-left: 0px; /* Adds a bit of space between text and badge */
+    margin-right: 10px;
+}
+
+/* Styling for the project year container */
+.project-year-white {
+    font-size: 1em;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Styling for the project year badge (Hollow version) */
+.project-year-white {
+    background-color: transparent; /* Makes the background transparent */
+    color: #F8B62D; /* Keeps the text color the same as the original background */
+    padding: 3.5px 8.5px;
+    border: 1.5px solid #F8B62D; /* Adds a border with the same color as the text */
+    border-radius: 8px;
+    font-weight: medium;
+    margin-left: 0px; /* Space between text and badge */
+    margin-right: 10px; 
+}
