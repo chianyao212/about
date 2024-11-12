@@ -17,7 +17,7 @@ body {
 .intro-block {
     width: 100%;
     padding: 0 20px; /* Add some padding to the left and right */
-    background-image: url('images/banner_low.jpg'); /* Use full path for local testing */
+    background-image: url('data:images/banner_low.jpg'); /* Use full path for local testing */
     background-size: cover; /* Makes the image cover the entire section */
     background-position: center center; /* Centers the image */
     height: 50vh; /* Makes the header fill the full height of the viewport */
