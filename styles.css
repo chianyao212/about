@@ -93,5 +93,12 @@ body {
     margin-right: 10px; 
 }
 
+a {
+    color: inherit; /* 讓連結的顏色與父元素相同 */
+    text-decoration: none; /* 移除底線 */
+}
 
-
+a:hover {
+    color: #F8B62D; /* 滑鼠懸停時可給予不同顏色，例如黃色 */
+    text-decoration: underline; /* 滑鼠懸停時加上底線 */
+}
